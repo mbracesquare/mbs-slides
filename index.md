@@ -21,18 +21,19 @@ mBraceSquare is a markup language used to represent metadata inline using famili
 ### Example
 <pre>> cat ~/student_essays/jimmys_superhero.txt
 
-when I grow up I want to be big and strong like #JohnCena.
+when I grow up, I want to be big and strong like #JohnCena.
 
 > cat ~/student_essays/jimmys_superhero_corrections.txt
 
-when I grow up, I want to be big and strong like #JohnCena {[comment: "I know it sounds
+when I grow up, I want to be big and strong like John Cena {[comment: "I know it sounds
 cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 --- 
 
 ## Why not markdown?
+###{[tldr: "can extend markdown"]}
 
-Good question.
+Markdown
 
 
 
