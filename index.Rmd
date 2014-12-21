@@ -30,7 +30,7 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 --- 
 
-## Why not markdown?
+## Possible Use Case?
 ### {[tldr: "extending markdown"]}
 <br />
 Authoring in Markdown is great and being able to add metadata inline — better
