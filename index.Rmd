@@ -30,7 +30,7 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 --- 
 
-# Why not markdown?
+## Why not markdown?
 
 Good question.
 
