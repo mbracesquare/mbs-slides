@@ -35,7 +35,8 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 <br />
 Authoring in Markdown is great and being able to add metadata inline — better
 
-
+### Example
+{[comment: "insert example here"]}
 
 
 
