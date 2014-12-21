@@ -31,9 +31,9 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 --- 
 
 ## Why not markdown?
-###{[tldr: "can extend markdown"]}
+### {[tldr: "can extend markdown"]}
 
-Markdown
+
 
 
 
