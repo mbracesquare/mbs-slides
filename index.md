@@ -32,7 +32,8 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 ## Why not markdown?
 ### {[tldr: "extending markdown"]}
-Authoring in Markdown is great, being able to add metadata inline -- better
+<br />
+Authoring in Markdown is great and being able to add metadata inline — better
 
 
 
