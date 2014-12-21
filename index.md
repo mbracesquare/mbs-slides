@@ -9,17 +9,26 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
---- .class #id1
+---
 
-## Slide 1 - 
+## What is it?
+### {[tldr: 'inline metadata']}
+<br />
+mBraceSquare is a markup language used to represent metadata inline using familiar JSON syntax
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+    {[ key: 'value' ]}
+    
+##Example
+<pre>> cat ~/student_essays/jimmys_superhero.txt
+when I grow up I want to be big and strong like @JohnCena.
+
+> cat ~/student_essays/jimmys_superhero_corrections.txt
+when I grow up i want to be big and strong like @JohnCena {[comment: 'I have told you
+before Jimmy, no hashtags']}.</pre>
 
 --- .class #id2
 
-## Slide 2
+## Why not markdown?
 
 
 
