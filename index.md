@@ -1,6 +1,6 @@
 ---
 title       : mBraceSquare
-subtitle    : inline metadata
+subtitle    : represent metadata inline
 author      : Stefano Da Ros
 job         : 
 framework   : io2012   # {io2012, html5slides, shower, dzslides, ...}
@@ -31,8 +31,8 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 --- 
 
 ## Why not markdown?
-### {[tldr: "can extend markdown"]}
-
+### {[tldr: "extending markdown"]}
+Authoring in Markdown is great, being able to add metadata inline -- better
 
 
 
