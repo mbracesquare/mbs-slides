@@ -1,6 +1,6 @@
 ---
 title       : mBraceSquare
-subtitle    : represent metadata inline
+subtitle    : representing metadata inline
 author      : Stefano Da Ros
 job         : 
 framework   : io2012   # {io2012, html5slides, shower, dzslides, ...}
