@@ -71,17 +71,70 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Possible Use Case?</h2>
+    <h2>Use Cases</h2>
   </hgroup>
   <article data-timings="">
-    <h3>{[tldr: &quot;extending markdown&quot;]}</h3>
+    <h3>{[tldr: &quot;microdata&quot;]}</h3>
 
 <p><br />
-Authoring in Markdown is great and being able to add metadata inline — better</p>
+Authoring in Markdown is great and being able to easily add <em>microdata</em> would be cool.</p>
 
-<h3>Example</h3>
+<h3>Insert Microdata</h3>
 
-<p>{[comment: &quot;insert example here&quot;]}</p>
+<pre> > cat /srv/http/www.cip.li/blog/_posts/2014-06-06-ilmenau_himmel_blau.markdown
+
+I was in Ilmenau visiting some friends on the weekend and we had a great time! We rented
+some donkeys from a {[localBusiness: "Esel und Söhne"]} and rode to the top of the Kickelhahn.
+</pre>
+
+<h3>Rendered HTML</h3>
+
+<p>I was in Ilmenau visiting some friends on the weekend and we had a great time! We rented
+some donkeys from a local business <a href="http://www.zeitblueten.com/news/esel-vater-sohn/">Esel und Söhne</a> and rode to the top of the Kickelhahn.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Use Cases</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>{[tldr: &quot;custom macros&quot;]}</h3>
+
+<p><br />
+Being able to add custom macros in order to extend markdown could also be useful</p>
+
+<h3>Simple Commands</h3>
+
+<pre> > cat /srv/http/www.cip.li/blog/_posts/2014-12-22-in_comes_mbracesquare.markdown
+
+So, it's {[date: "currentYear"]} and you may be thinking to yourself, seriously? Do we
+really need another Markup language, we already have XML, YAML, HTML, [A-Z]*ML...
+</pre>
+
+<h3>API Calls</h3>
+
+<p>{[insert: &quot;a good example how calling external APIs could be useful&quot;, 
+  comment: &quot;any ideas Erik?&quot;]}</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>{[endOfPresentation: true]}</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br /></p>
+
+<h3>{[insert: &quot;lame joke goes here&quot;]}</h3>
+
+<p><br /></p>
+
+<p>{[comments: &quot;let me know what you think, <a href="mailto:sd@cip.li">sd@cip.li</a>&quot;]}</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -99,8 +152,20 @@ Authoring in Markdown is great and being able to add metadata inline — better<
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Possible Use Case?'>
+        data-slide=2 title='Use Cases'>
          2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Use Cases'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='{[endOfPresentation: true]}'>
+         4
       </a>
     </li>
   </ul>

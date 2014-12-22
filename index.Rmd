@@ -30,13 +30,53 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 --- 
 
-## Possible Use Case?
-### {[tldr: "extending markdown"]}
+## Use Cases
+### {[tldr: "microdata"]}
 <br />
-Authoring in Markdown is great and being able to add metadata inline — better
+Authoring in Markdown is great and being able to easily add _microdata_ would be cool.
 
-### Example
-{[comment: "insert example here"]}
+### Insert Microdata
+
+<pre> > cat /srv/http/www.cip.li/blog/_posts/2014-06-06-ilmenau_himmel_blau.markdown
+
+I was in Ilmenau visiting some friends on the weekend and we had a great time! We rented
+some donkeys from a {[localBusiness: "Esel und Söhne"]} and rode to the top of the Kickelhahn.
+</pre>
+
+### Rendered HTML
+
+I was in Ilmenau visiting some friends on the weekend and we had a great time! We rented
+some donkeys from a local business [Esel und Söhne](http://www.zeitblueten.com/news/esel-vater-sohn/) and rode to the top of the Kickelhahn.
+
+---
+
+## Use Cases
+### {[tldr: "custom macros"]}
+<br />
+Being able to add custom macros in order to extend markdown could also be useful
+
+### Simple Commands
+
+<pre> > cat /srv/http/www.cip.li/blog/_posts/2014-12-22-in_comes_mbracesquare.markdown
+
+So, it's {[date: "currentYear"]} and you may be thinking to yourself, seriously? Do we
+really need another Markup language, we already have XML, YAML, HTML, [A-Z]*ML...
+</pre>
+
+### API Calls
+
+{[insert: "a good example how calling external APIs could be useful", 
+  comment: "any ideas Erik?"]}
+
+---
+## {[endOfPresentation: true]}
+<br />
+
+### {[insert: "lame joke goes here"]}
+<br />
+
+{[comments: "let me know what you think, sd@cip.li"]}
+
 
 
 

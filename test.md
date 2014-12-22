@@ -1,0 +1,1 @@
+I was in Ilmenau visiting some friends on the weekend and we had a great time! We rented some donkeys from a local business (Esel und Söhne)[http://www.zeitblueten.com/news/esel-vater-sohn/] with the intention of riding with them (and a few cases of beer) to the top of the Kickelhahn.
