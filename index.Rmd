@@ -97,6 +97,7 @@ some donkeys from a local business [Esel und Söhne](http://www.zeitblueten.com/
 
 ![Standards](http://imgs.xkcd.com/comics/standards.png)
 
+<br />
 {[comments: "let me know what you think, sd@cip.li"]}
 
 
