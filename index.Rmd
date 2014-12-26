@@ -60,9 +60,9 @@ mBraceSquare is flexible and can be used in many different contexts
 
 ## Use Cases
 
-### Indeterminate References
+### Lazy References
 <br />
-Adding references in a lazy, semi-structured fashion is sometimes useful
+It is sometimes useful to be able to add references in a semi-structured fashion
 
 ### Example
 <pre>
