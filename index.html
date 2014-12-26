@@ -49,7 +49,7 @@
     <h3>{[tldr: &quot;inline metadata&quot;]}</h3>
 
 <p><br />
-mBraceSquare is a markup language used to represent metadata inline using familiar JSON syntax</p>
+mBraceSquare is a markup language used to represent metadata in regular text using familiar JSON/CSON syntax</p>
 
 <pre><code>{[ key: &quot;value&quot; ]}
 </code></pre>
@@ -71,15 +71,84 @@ cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
+    <h2>Design Goals</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>{[tldr: [&#39;legible&#39;, &#39;intuitive&#39;, &#39;tolerant&#39;] ]}</h3>
+
+<p><br />
+mBraceSquare was designed to provide a simple way of representing loosely structured metadata in regular text</p>
+
+<p><br />
+Implementations of mBraceSquare should be:</p>
+
+<ul>
+<li>easy to read and interpret</li>
+</ul>
+
+<p><br /></p>
+
+<ul>
+<li>intuitive to write</li>
+</ul>
+
+<p><br /></p>
+
+<ul>
+<li>tolerant of human laziness</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
     <h2>Use Cases</h2>
   </hgroup>
   <article data-timings="">
-    <h3>{[tldr: &quot;microdata&quot;]}</h3>
+    <p><br />
+mBraceSquare is flexible and can be used in many different contexts</p>
 
 <p><br />
-Authoring in Markdown is great and being able to easily add <em>microdata</em> would be cool.</p>
+<img src="assets/img/ankunft.png" alt="Arrival Time Schatz"></p>
 
-<h3>Insert Microdata</h3>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Use Cases</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Indeterminate References</h3>
+
+<p><br />
+Adding references in a lazy, semi-structured fashion is sometimes useful</p>
+
+<h3>Example</h3>
+
+<pre>
+The proposal should be reviewed and any changes should be submitted to
+the responsible party {[reference: "project's technical lead"]}.
+</pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Use Cases</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Representing Microdata</h3>
+
+<p><br />
+Authoring in Markdown is great and being able to easily add <em>microdata</em> would be cool</p>
+
+<h3>Example</h3>
 
 <pre> > cat /srv/http/www.cip.li/blog/_posts/2014-06-06-ilmenau_himmel_blau.markdown
 
@@ -96,43 +165,12 @@ some donkeys from a local business <a href="http://www.zeitblueten.com/news/esel
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-3" style="background:;">
-  <hgroup>
-    <h2>Use Cases</h2>
-  </hgroup>
-  <article data-timings="">
-    <h3>{[tldr: &quot;custom macros&quot;]}</h3>
-
-<p><br />
-Being able to add custom macros in order to extend markdown could also be useful</p>
-
-<h3>Simple Commands</h3>
-
-<pre> > cat /srv/http/www.cip.li/blog/_posts/2014-12-22-in_comes_mbracesquare.markdown
-
-So, it's {[date: "currentYear"]} and you may be thinking to yourself, seriously? Do we
-really need another Markup language, we already have XML, YAML, HTML, [A-Z]*ML...
-</pre>
-
-<h3>API Calls</h3>
-
-<p>{[insert: &quot;a good example how calling external APIs could be useful&quot;, 
-  comment: &quot;any ideas Erik?&quot;]}</p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-4" style="background:;">
+<slide class="" id="slide-6" style="background:;">
   <hgroup>
     <h2>{[endOfPresentation: true]}</h2>
   </hgroup>
   <article data-timings="">
     <p><br /></p>
-
-<h3>{[insert: &quot;lame joke goes here&quot;]}</h3>
-
-<p><br /></p>
 
 <p>{[comments: &quot;let me know what you think, <a href="mailto:sd@cip.li">sd@cip.li</a>&quot;]}</p>
 
@@ -152,7 +190,7 @@ really need another Markup language, we already have XML, YAML, HTML, [A-Z]*ML..
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Use Cases'>
+        data-slide=2 title='Design Goals'>
          2
       </a>
     </li>
@@ -164,8 +202,20 @@ really need another Markup language, we already have XML, YAML, HTML, [A-Z]*ML..
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='{[endOfPresentation: true]}'>
+        data-slide=4 title='Use Cases'>
          4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Use Cases'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='{[endOfPresentation: true]}'>
+         6
       </a>
     </li>
   </ul>

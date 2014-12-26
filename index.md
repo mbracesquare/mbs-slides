@@ -14,7 +14,7 @@ knit        : slidify::knit2slides
 ## What is it?
 ### {[tldr: "inline metadata"]}
 <br />
-mBraceSquare is a markup language used to represent metadata inline using familiar JSON syntax
+mBraceSquare is a markup language used to represent metadata in regular text using familiar JSON/CSON syntax
 
     {[ key: "value" ]}
     
@@ -28,14 +28,57 @@ when I grow up, I want to be big and strong like #JohnCena.
 when I grow up, I want to be big and strong like John Cena {[comment: "I know it sounds
 cool Jimmy, but please don't use hashtags in your essays."]}.</pre>
 
---- 
+---
+
+## Design Goals
+### {[tldr: ['legible', 'intuitive', 'tolerant'] ]}
+<br />
+mBraceSquare was designed to provide a simple way of representing loosely structured metadata in regular text
+
+<br />
+Implementations of mBraceSquare should be:
+
+- easy to read and interpret
+
+<br />
+- intuitive to write
+
+<br />
+- tolerant of human laziness
+
+---
 
 ## Use Cases
-### {[tldr: "microdata"]}
-<br />
-Authoring in Markdown is great and being able to easily add _microdata_ would be cool.
 
-### Insert Microdata
+<br />
+mBraceSquare is flexible and can be used in many different contexts
+
+<br />
+![Arrival Time Schatz](assets/img/ankunft.png)
+
+---
+
+## Use Cases
+
+### Indeterminate References
+<br />
+Adding references in a lazy, semi-structured fashion is sometimes useful
+
+### Example
+<pre>
+The proposal should be reviewed and any changes should be submitted to
+the responsible party {[reference: "project's technical lead"]}.
+</pre>
+
+---
+## Use Cases
+
+### Representing Microdata
+
+<br />
+Authoring in Markdown is great and being able to easily add _microdata_ would be cool
+
+### Example
 
 <pre> > cat /srv/http/www.cip.li/blog/_posts/2014-06-06-ilmenau_himmel_blau.markdown
 
@@ -49,31 +92,9 @@ I was in Ilmenau visiting some friends on the weekend and we had a great time! W
 some donkeys from a local business [Esel und Söhne](http://www.zeitblueten.com/news/esel-vater-sohn/) and rode to the top of the Kickelhahn.
 
 ---
-
-## Use Cases
-### {[tldr: "custom macros"]}
-<br />
-Being able to add custom macros in order to extend markdown could also be useful
-
-### Simple Commands
-
-<pre> > cat /srv/http/www.cip.li/blog/_posts/2014-12-22-in_comes_mbracesquare.markdown
-
-So, it's {[date: "currentYear"]} and you may be thinking to yourself, seriously? Do we
-really need another Markup language, we already have XML, YAML, HTML, [A-Z]*ML...
-</pre>
-
-### API Calls
-
-{[insert: "a good example how calling external APIs could be useful", 
-  comment: "any ideas Erik?"]}
-
----
 ## {[endOfPresentation: true]}
 <br />
 
-### {[insert: "lame joke goes here"]}
-<br />
 
 {[comments: "let me know what you think, sd@cip.li"]}
 
